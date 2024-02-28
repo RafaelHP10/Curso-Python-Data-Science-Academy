@@ -9,9 +9,17 @@
 #%%
 valor = int(input("Entre com a quantidade de segundos!"))
 
-def convert(seconds):
-    minuto, segundo = divmod(seconds, 60)
-    hora, minuto    = divmod(minuto, 60)
-    return "%d:%02d:%02d" % (hora,minuto,segundo)
+#def convert(seconds):
+    #minuto, segundo = divmod(seconds, 60)
+    #hora, minuto    = divmod(minuto, 60)
+    #return "%d:%02d:%02d" % (hora,minuto,segundo)
 
-print(convert(valor))
+#print(convert(valor))
+
+import datetime 
+  
+def convert(n): 
+    return str(datetime.timedelta(seconds = valor)) 
+      
+
+print(convert(valor)) 
