@@ -49,3 +49,9 @@ filho1  = dados["Filhos"][0]["Idade"]
 
 print(nome)
 print(filho1)
+
+dados.keys()
+
+dados.values()
+
+dados.items()
